@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app.js correctly 1`] = `
+<AuthProvider>
+  <ProductsProvider>
+    <React.Fragment>
+      <Navbar />
+      <Routes>
+        <Route
+          element={<HomePage />}
+          path="/"
+        />
+        <Route
+          element={<ProductsPage />}
+          path="/productspage"
+        />
+        <Route
+          element={<ProductsPage />}
+          path="category/:type"
+        />
+        <Route
+          element={<ProductDetailPage />}
+          path="productdetail"
+        />
+        <Route
+          element={<CartPage />}
+          path="cart"
+        />
+        <Route
+          element={<Login />}
+          path="loginauth"
+        />
+        <Route
+          element={<OrderHistoryPage />}
+          path="orders"
+        />
+        <Route
+          element={
+            <RequireAuth>
+              <AdminPage />
+            </RequireAuth>
+          }
+          path="inventory"
+        />
+      </Routes>
+    </React.Fragment>
+  </ProductsProvider>
+</AuthProvider>
+`;

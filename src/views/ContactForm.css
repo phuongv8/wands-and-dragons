@@ -1,0 +1,38 @@
+.contact-form-container{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgb(255, 255, 255), rgb(251, 251, 251));
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-page-title{
+    margin-top: 200px;
+    transition: all 3s ease-in-out;
+    color: black;
+}
+
+
+
+.contact-entry{
+    width: 425px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(17, 16, 16);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.submit-button{
+    background-color: oldlace;
+    border-color: transparent;
+    color: black;
+    font-size: 24px;
+    height: 80px;
+    margin-top: 40px;
+}

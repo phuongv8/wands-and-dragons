@@ -1,0 +1,28 @@
+.confirmation {
+  display: flex !important;
+  text-align: center !important;
+  flex-direction: column;
+}
+.shipping-info {
+  display: flex !important;
+  flex-direction: column;
+  text-align: center !important;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+
+.shipping-info p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.billing-info {
+  margin-top: 20px;
+}
+
+.snape-image {
+  width: 100%;
+}
+
+

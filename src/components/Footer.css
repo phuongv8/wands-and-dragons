@@ -1,0 +1,166 @@
+.footer-area {
+  background: #fbfbfd !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-top {
+  padding: 0px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.footer-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+}
+
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.group-2 {
+  width: auto !important;
+}
+
+.group-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  background-color: #f1f1f1;
+ }
+
+@media screen and (min-width: 402px) {
+  .group-1 {
+    width: 100%;
+  }
+
+  .footer-row {
+    justify-content: space-evenly;
+  }
+}
+
+ 
+
+@media screen and (min-width: 768px) {
+  .group-1 {
+    width: 25%;
+    align-items: flex-start;
+  }
+
+  .group-widget {
+    align-items: flex-start;
+  }
+
+  .company-widget p {
+    text-align: left;
+  }
+
+  .form-control {
+    width: 80%;
+  }
+
+  .f-subscribe {
+    width: 100%;
+  }
+
+  .footer-row {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .group-1 {
+    align-items: flex-start;
+  }
+
+  .group-widget{
+    align-items: flex-start;
+  }
+
+  .form-control {
+    width: 80%;
+  }
+}
+
+
+.group-widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+}
+
+.footer-top .f-widget.about-widget .f-list li:hover {
+  color: #5074be;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.footer-top .f-widget.about-widget .f-list li {
+  margin-bottom: 11px;
+}
+
+.f-list {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px !important;
+}
+
+f-list li:last-child {
+  margin-bottom: 0px;
+}
+
+.f-list li {
+  margin-bottom: 15px;
+}
+
+.f-social-icon {
+  height: 44px;
+  background: transparent;
+  font-size: 24px;
+  line-height: 45px;
+  display: inline;
+  text-align: center;
+}
+
+.mui-icon {
+  margin-right: 10px;
+  color: #6a7695 ;
+}
+
+.mui-icon:hover {
+  color: #4267B2;
+  cursor: pointer;
+}
+
+.f-title {
+  color: #263b5e;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-control {
+  text-align: center;
+}

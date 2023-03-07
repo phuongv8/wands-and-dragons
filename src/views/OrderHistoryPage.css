@@ -1,0 +1,12 @@
+.order-page-container{
+  display: flex;
+  margin-top: 10px;
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}

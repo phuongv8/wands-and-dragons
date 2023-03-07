@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Wands",
+    "image": "/images/wand-category.png",
+    "header": "THE RAREST WANDS...ACCIO!",
+    "description" : "Created with the most valuable Unicorn Hair, Dragon Heartstring, Phoenix Feather and more, our wands are top of the line.A wizard’s journey starts here. Pick the right wand for you."
+  },
+  {
+    "id": 1,
+    "name": "Dragons",
+    "image": "/images/egg-category.jpg",
+    "header": "OUR PRODUCTS ARE BACKED BY INDUSTRY STANDARDS",
+    "description": "Dragons, winged fire-breathing lizards the size of a city bus, are one of the most amazing magical creatures in the world. Dragons are terrifying and awe-inspiring as they take flight and breathe fire."
+  },
+  {
+    "id": 2,
+    "name": "Cloaks",
+    "image": "/images/cloak-category.jpeg",
+    "header": "BECAUSE YOU'RE WORTH IT...SHOP CLOAKS",
+    "description": "Get ready to go back to Hogwarts. Skip the line at Diagon Alley and select your House cloak. Whether you are a Gryffindoor, Ravenclaw, Slytherin…. And yeah, even a Hufflepuff…. We have got the cloak for you! In addition to the house cloaks, we now have invisibility cloaks in stock!" 
+  },
+  {
+    "id": 3,
+    "name": "Brooms",
+    "image": "/images/broom-category.png",
+    "header": "VROOM...BROOM...",
+    "description": "Quidditch? Quodpot? Swivenhodge? Say no more. Soar the skies on the Comet or Nimbus 2000. Race for the Snitch on the Firebolt. Search our brooms and filter to find the right speed, ability, life-span, or material for you."
+  },
+  {
+    "id": 4,
+    "name": "Potions",
+    "image": "/images/potion-category.jpeg",
+    "header": "UGLY? POOR? BROWSE POTIONS.",
+    "description":"Potions are not for the impatient, but their effects are usually difficult to undo by any but another skilled potioneer. This branch of magic carries a certain mystique and therefore status. Be warned. -Albus Dumbledore."
+  }
+]

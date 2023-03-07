@@ -1,0 +1,88 @@
+.inventory-row {
+  padding-top: 5px;
+}
+
+h4 {
+  padding-left: 36px;
+  padding-top: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-group {
+  margin: 0px;
+  width: auto;
+  padding-right: 30px;
+}
+
+.button-group .button-admin {
+  background-color: black !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.admin-table-container {
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+thead th {
+  width: fit-content;
+  text-align: center; 
+}
+
+thead tr.table-row {
+  background-color: #555555;
+  color: white;
+}
+
+thead th.table-product-name {
+  text-align: left;
+  padding-left: 50px;
+}
+
+tbody tr {
+  padding-bottom: 10px;
+}
+
+tbody tr td {
+  text-align: center;
+}
+
+tbody {
+  vertical-align: middle;
+}
+
+tbody td.table-name-data {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.btn-sm {
+  border: none;
+  background-color: transparent;
+}
+
+.update-inventory-form btn.btn-primary{
+  background-color: #555555 !important;
+
+}
+
+.edit-input-field {
+  width: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .edit-input-field {
+    width: 250px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-label {
+  font-size: 16px;
+}
