@@ -5,6 +5,9 @@ Welcome to our full-stack e-commerce website dedicated to Harry Potter fans! Her
 ## Technologies Used
 React for the frontend, Java for the backend, MySQL for the database
 
+## Screenshots
+<img width="1154" alt="Screenshot 2023-03-06 at 5 11 32 PM" src="https://user-images.githubusercontent.com/100975883/223293922-7177cf15-1ae3-4ba1-ae16-2e1b3487f615.png">
+
 ## Admin login:
 Username: vu  
 Password: 123456
@@ -51,4 +54,4 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
 # Future Enhancements
 - [ ] Implement order tracking and shipping information
 - [ ] Add more Harry Potter merchandise to the website
-
+- [ ] Deploy on AWS
