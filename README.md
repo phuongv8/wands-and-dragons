@@ -12,6 +12,11 @@ Password: 123456
 ## Checkout:
 Credit card: 4242424242424242
 
+## Design:
+Sitemap: https://www.figma.com/file/H3TjR7Zb8P87y2tRjANuiE/Wands-%26-Dragons%3A-Site-Map?node-id=0%3A1    
+Wireframe desktop: https://www.figma.com/file/DWLXMCN4bye4eOwBD8wEmE/Desktop-Designs    
+Wireframe mobile: https://www.figma.com/file/u0hP11shopPMVwXBFxjgJ4/Wands-%26-Dragons%3A-Wireframe  
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
