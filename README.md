@@ -30,20 +30,34 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
 
 1. Clone the repository to your local machine
    ```sh
-   git clone https://github.com/your_username_/airbnb-apprenticeship.git
+   https://github.com/phuongv8/wands-and-dragons.git
    ```
 2. Change into the project directory
    ```sh
-   cd airbnb-apprenticeship
+   cd wands-and-dragons
    ```
-3. Install all required dependencies
+3. Install all required dependencies for frontend and backend
    ```sh
    npm install
+   mvn install
    ```
 4. Start the development server
    ```sh
    npm start
    ```
+## Configuration
+1. Create a MySQL database for the project
+2. In the server directory, navigate to src/main/resources/application.properties
+3. Update the following properties with your own MySQL configuration:
+   ```sh
+   spring.datasource.url=jdbc:mysql://<host>:<port>/<database-name>?useSSL=false
+   spring.datasource.username=<username>
+   spring.datasource.password=<password>
+   ```
+## Running the project
+1. In the server directory, run ```mvn spring-boot:run``` to start the backend server
+2. In the client directory, run ```npm start``` to start the frontend server
+3. Open a web browser and navigate to http://localhost:3000 to access the website
 
 # Features
 - User registration and authentication
@@ -55,3 +69,4 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
 - [ ] Implement order tracking and shipping information
 - [ ] Add more Harry Potter merchandise to the website
 - [ ] Deploy on AWS
+- [ ] Update Installation instruction
